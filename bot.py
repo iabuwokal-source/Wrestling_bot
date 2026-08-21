@@ -33,7 +33,8 @@ if not GEMINI_API_KEY or not BOT_TOKEN:
 
 genai.configure(api_key=GEMINI_API_KEY)
 # تم تعديل النموذج هنا ليعمل مباشرة بدون أخطاء
-model = genai.GenerativeModel('gemini-2.5-flash')
+model = genai.GenerativeModel('gemini-3.6-flash')
+
 
 # ───────────────────────────────────────────────
 # الإعدادات العامة
